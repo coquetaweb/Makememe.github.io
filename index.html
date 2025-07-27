@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Make It Meme - Türkçe</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Make It Meme - Türkçe</h1>
+    <div class="meme-box">
+      <img id="meme-image" src="memes/meme1.jpg" alt="Meme" />
+      <input id="caption" type="text" placeholder="Yazını buraya yaz..." />
+      <button onclick="submitMeme()">Gönder</button>
+    </div>
+    <div id="submitted-caption" class="caption-display"></div>
+    <button onclick="nextMeme()">Sonraki Meme</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
